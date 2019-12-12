@@ -1,0 +1,13 @@
+project1		[2019-12-11 19:36:23,331]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 main	 	 - ------------------------------------------------------------------	
+sandip	OBAD	[2019-12-11 19:37:41,179]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 main	 	 - Calculator.main()--starts	
+sandip	OBAD	[2019-12-11 19:37:41,187]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 main	 	 - Programs started...	
+sandip	OBAD	[2019-12-11 19:37:41,187]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 calculate	 	 - Calculator.calculate()-starts	
+sandip	OBAD	[2019-12-11 19:37:41,188]	[main]	 INFO 	 com.app.programs.Calculator	 com.app.programs.Calculator	 calculate	 	 - Num1:10 Num2:0	
+sandip	OBAD	[2019-12-11 19:37:41,188]	[main]	 WARN 	 com.app.programs.Calculator	 com.app.programs.Calculator	 calculate	 	 - Donot divide by num2.	
+sandip	OBAD	[2019-12-11 19:37:41,190]	[main]	 ERROR	 com.app.programs.Calculator	 com.app.programs.Calculator	 calculate	 	 - Arithmatica exceptions	
+java.lang.ArithmeticException: / by zero
+	at com.app.programs.Calculator.calculate(Calculator.java:41)
+	at com.app.programs.Calculator.main(Calculator.java:68)
+sandip	OBAD	[2019-12-11 19:37:41,201]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 calculate	 	 - Calculator.calculate()-ends	
+sandip	OBAD	[2019-12-11 19:37:41,201]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 main	 	 - Calculator.main()--ends In:(t2-t1):14	
+sandip	OBAD	[2019-12-11 19:37:41,201]	[main]	 DEBUG	 com.app.programs.Calculator	 com.app.programs.Calculator	 main	 	 - ------------------------------------------------------------------	

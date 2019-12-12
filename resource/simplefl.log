@@ -1,0 +1,12 @@
+DEBUG - Calculator.main()--starts
+DEBUG - Calculator.calculate()-starts
+INFO - Num1:10 Num2:2
+INFO - Result:5
+DEBUG - Calculator.calculate()-ends
+DEBUG - Calculator.main()--ends In:(t2-t1):1
+DEBUG - Calculator.main()--starts
+DEBUG - Calculator.calculate()-starts
+INFO - Num1:10 Num2:2
+INFO - Result:5
+DEBUG - Calculator.calculate()-ends
+DEBUG - Calculator.main()--ends In:(t2-t1):1

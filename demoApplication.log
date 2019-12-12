@@ -1,0 +1,90 @@
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:5
+[main] INFO  com.app.programs.Calculator  - Result:2
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:0
+[main] WARN  com.app.programs.Calculator  - Donot divide by num2.
+[main] ERROR com.app.programs.Calculator  - Arithmatica exceptions
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:2
+[main] INFO  com.app.programs.Calculator  - Result:5
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:2
+[main] INFO  com.app.programs.Calculator  - Result:5
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.IOException
+	at com.app.programs.Calculator.calculate(Calculator.java:36)
+	at com.app.programs.Calculator.main(Calculator.java:52)
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+----------------------------------------------------------------------------------------------------------------------[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:2
+[main] INFO  com.app.programs.Calculator  - Result:5
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.IOException
+	at com.app.programs.Calculator.calculate(Calculator.java:36)
+	at com.app.programs.Calculator.main(Calculator.java:52)
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:2
+[main] INFO  com.app.programs.Calculator  - Result:5
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.IOException
+	at com.app.programs.Calculator.calculate(Calculator.java:36)
+	at com.app.programs.Calculator.main(Calculator.java:52)
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.IOException
+	at com.app.programs.Calculator.calculate(Calculator.java:36)
+	at com.app.programs.Calculator.main(Calculator.java:52)
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.lang.NullPointerException
+	at com.app.programs.Calculator.calculate(Calculator.java:38)
+	at com.app.programs.Calculator.main(Calculator.java:54)
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.FileNotFoundException: sandip.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.app.programs.Calculator.calculate(Calculator.java:42)
+	at com.app.programs.Calculator.main(Calculator.java:59)
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.io.FileNotFoundException: sandip.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.app.programs.Calculator.calculate(Calculator.java:42)
+	at com.app.programs.Calculator.main(Calculator.java:59)
+[main] FATAL com.app.programs.Calculator  - Unknown exception
+java.lang.ClassNotFoundException: Sandip
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.app.programs.Calculator.calculate(Calculator.java:43)
+	at com.app.programs.Calculator.main(Calculator.java:59)
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--starts
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-starts
+[main] INFO  com.app.programs.Calculator  - Num1:10 Num2:2
+[main] INFO  com.app.programs.Calculator  - Result:5
+[main] DEBUG com.app.programs.Calculator  - Calculator.calculate()-ends
+[main] DEBUG com.app.programs.Calculator  - Calculator.main()--ends In:(t2-t1):1
